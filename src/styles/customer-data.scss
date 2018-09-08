@@ -1,0 +1,146 @@
+.customer-container {
+    margin: 0 5% 0 5%;
+
+}
+
+input[type=button] {
+    width: 3rem;
+}
+
+.highlight {
+    border: 2px solid #f85d5d !important;
+}
+
+fieldset {
+    min-height: 10vh;
+    padding: 1%;
+}
+
+section {
+    margin-top: 2%;
+}
+
+.customeradd {
+    min-height: 10vh;
+    div:first {
+        position: relative;
+    }
+    input[type=text] {
+        width: 15rem;
+    }
+}
+
+.suggestion {
+    border: 1px solid #727272;
+    position: absolute;
+    background-color: #fff;
+    z-index: 1;
+    width: 15rem;
+    *:hover {
+        background-color: #d4d4d4;
+    }
+}
+
+.customerfilter {
+    min-height: 10vh;
+}
+
+.allcustomers {
+    min-height: 30vh;
+}
+
+.hide {
+    display: none;
+}
+
+.data-heading {
+    div {
+        text-align: center;
+    }
+}
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: .2rem;
+    border: 1px solid #868686;
+    &:hover {
+        border: 2px solid #888888;
+        transform: scale(1.01, 1);
+    }
+}
+
+
+
+.column {
+    justify-content: space-around;
+    align-self: baseline;
+    padding: .5em;
+    margin: .2rem;
+    text-align: center;
+    .customer-name {
+        input {
+            width: 100%;
+        }
+    }
+    span {
+        align-self: center;
+        input {
+            border: none;
+            text-align: center;
+            margin: 0 auto;
+            width: 50%;
+        }
+    }
+}
+
+
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
